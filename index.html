@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Franchise Tracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+    <h1>Movie Franchise Tracker</h1>
+    <div id="tabs">
+        <button onclick="switchFranchise('marvel')">Marvel</button>
+        <button onclick="switchFranchise('bond')">James Bond</button>
+        <button onclick="switchFranchise('mi')">Mission: Impossible</button>
+        <button onclick="switchFranchise('f9')">Fast & Furious</button>
+    </div>
+    <div id="franchise-list"></div>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
