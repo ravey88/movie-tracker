@@ -11,12 +11,16 @@
 <body>
     <h1>Movie Franchise Tracker</h1>
     <div id="tabs">
-        <button onclick="switchFranchise('marvel')">Marvel</button>
+        <button onclick="switchFranchise('marvel')">Marvel (MCU)</button>
+        <button onclick="switchFranchise('nonmcu')">Marvel (Non-MCU)</button>
         <button onclick="switchFranchise('bond')">James Bond</button>
+        <button onclick="switchFranchise('noneonbond')">Bond (Non-EON)</button>
         <button onclick="switchFranchise('mi')">Mission: Impossible</button>
         <button onclick="switchFranchise('f9')">Fast & Furious</button>
-    <button onclick="switchFranchise('disney')">Disney</button><button onclick="switchFranchise('pixar')">Pixar</button></div>
-    <div id="franchise-list"><button onclick="switchFranchise('disney')">Disney</button><button onclick="switchFranchise('pixar')">Pixar</button></div>
+        <button onclick="switchFranchise('disney')">Disney</button>
+        <button onclick="switchFranchise('pixar')">Pixar</button>
+    </div>
+    <div id="franchise-list"></div>
     <script src="data.js"></script>
     <script src="script.js"></script>
 </body>

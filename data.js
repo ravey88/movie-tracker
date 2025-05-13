@@ -124,4 +124,15 @@ const franchiseData = {
     { title: "Lightyear", duration: 105, fact: "The Buzz origin(ish) story." },
     { title: "Elemental", duration: 101, fact: "Opposites attract — literally." },
   ],
+  nonmcu: [
+    { title: "X-Men", duration: 104, fact: "Launched the modern superhero boom (2000)." },
+    { title: "Spider-Man", duration: 121, fact: "Tobey Maguire’s 2002 classic." },
+    { title: "Deadpool", duration: 108, fact: "R-rated fun with 4th-wall breaks." },
+    { title: "Fantastic Four", duration: 106, fact: "Marvel's first family rebooted a few times." },
+    { title: "Deadpool & Wolverine", duration: 130, fact: "Upcoming — UK release: 26 July 2024" },
+  ],
+  noneonbond: [
+    { title: "Casino Royale (1967)", duration: 131, fact: "NON-EON — a spy spoof starring David Niven." },
+    { title: "Never Say Never Again (1983)", duration: 134, fact: "NON-EON — Sean Connery’s Bond comeback." },
+  ],
 };
